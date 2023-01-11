@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Element
+comment1.params=c
+comment1.target=Element(java.lang.Object)
+comment10.params=
+comment10.target=void\ disconnectPred()
+comment11.params=e
+comment11.target=void\ connectAsPred(Element)
+comment2.params=
+comment2.target=java.lang.Object\ getContent()
+comment3.params=c
+comment3.target=void\ setContent(java.lang.Object)
+comment4.params=
+comment4.target=boolean\ hasSucc()
+comment5.params=
+comment5.target=Element\ getSucc()
+comment6.params=
+comment6.target=void\ disconnectSucc()
+comment7.params=e
+comment7.target=void\ connectAsSucc(Element)
+comment8.params=
+comment8.target=boolean\ hasPred()
+comment9.params=
+comment9.target=Element\ getPred()
+numComments=12
