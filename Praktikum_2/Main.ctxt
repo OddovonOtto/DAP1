@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=arr
+comment10.target=java.lang.String\ toString(Fraction[])
+comment11.params=arr
+comment11.target=Fraction[]\ selectNegatives(Fraction[])
+comment12.params=arr
+comment12.target=Fraction\ countSequences(Fraction[])
+comment2.params=arr
+comment2.target=Fraction[]\ createFractionArr(int[])
+comment3.params=arr
+comment3.target=Fraction\ countNegatives(Fraction[])
+comment4.params=arr
+comment4.target=Fraction\ sumUpNegatives(Fraction[])
+comment5.params=arr
+comment5.target=Fraction\ maximum(Fraction[])
+comment6.params=arr
+comment6.target=Fraction\ countMaximum(Fraction[])
+comment7.params=arr
+comment7.target=boolean\ isSorted(Fraction[])
+comment8.params=arr\ z
+comment8.target=Fraction[]\ increaseArray(Fraction[],\ Fraction)
+comment9.params=arr
+comment9.target=Fraction[]\ doubleIfContainsPositive(Fraction[])
+numComments=13

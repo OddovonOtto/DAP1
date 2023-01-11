@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.target=MethodsTestat3
+comment1.params=n
+comment1.target=int\ digitSum(int)
+comment1.text=\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ i\ <\=\ j\ )\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ arr[i]\ \=\=\ arr[j]\ &&\ palindromCheck(\ arr,\ i-1\ );\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\ \ \r\n\r\n\ \ \ \ public\ static\ int\ getIndex(\ int[]\ arr,\ int\ i,\ int\ x\ )\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if\ (\ i\ <\ 0\ ||\ i>arr.length-1\ )\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ -1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ int\ lower\ \=\ getIndex(\ arr,\ i-1,\ x\ );\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ lower\ \!\=\ -1\ ||\ arr[i]\ \!\=\ x\ )\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ lower;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ i;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ static\ String\ toString(\ int[]\ arr,\ int\ i\ )\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if\ (\ i\ <\ 0\ ||\ i\ >\=\ arr.length\ )\r\n\ \ \ \ \ \ \ \ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ "";\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ i\ \=\=\ 0\ )\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ arr[0]\ +\ "";\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\r\n\ \ \ \ \ \ \ \ \ \ \ \ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ toString(\ arr,\ i-1\ )\ +\ ","\ +\ arr[i];\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+comment10.params=arr\ i
+comment10.target=boolean\ palindromCheck(char[],\ int)
+comment11.params=arr\ i\ border
+comment11.target=boolean\ palindromCheckBound(char[],\ int,\ int)
+comment12.params=arr\ i\ x
+comment12.target=int\ getIndex(int[],\ int,\ int)
+comment13.params=arr\ i
+comment13.target=java.lang.String\ toString(int[],\ int)
+comment14.params=arr\ i\ border
+comment14.target=java.lang.String\ toStringIO(int[],\ int,\ int)
+comment2.params=a\ n
+comment2.target=int\ power(int,\ int)
+comment3.params=arr\ n
+comment3.target=int\ sumUpNegatives(int[],\ int)
+comment4.params=arr\ n
+comment4.target=int\ countPositives(int[],\ int)
+comment5.params=arr\ d\ t
+comment5.target=int\ countPositivesLimited(int[],\ int,\ int)
+comment6.params=arr\ i
+comment6.target=int\ maximum(int[],\ int)
+comment7.params=arr\ i
+comment7.target=boolean\ isSorted(int[],\ int)
+comment8.params=arr\ i\ x
+comment8.target=boolean\ contains(int[],\ int,\ int)
+comment9.params=arr1\ arr2\ i
+comment9.target=boolean\ contentCheck(char[],\ char[],\ int)
+numComments=15

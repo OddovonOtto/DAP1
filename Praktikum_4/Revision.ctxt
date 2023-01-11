@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Revision
+comment1.params=
+comment1.target=Revision()
+comment10.params=arr\ i\ x
+comment10.target=int\ getIndex(Fraction[],\ int,\ Fraction)
+comment2.params=arr\ i
+comment2.target=Fraction\ maximum(Fraction[],\ int)
+comment3.params=arr\ i
+comment3.target=Fraction\ lastPositive(Fraction[],\ int)
+comment4.params=arr\ i
+comment4.target=Fraction\ firstPositive(Fraction[],\ int)
+comment5.params=arr\ i
+comment5.target=boolean\ isSorted(Fraction[],\ int)
+comment6.params=arr\ i\ x
+comment6.target=boolean\ contains(Fraction[],\ int,\ Fraction)
+comment7.params=arr\ d\ t
+comment7.target=int\ countPositives(Fraction[],\ int,\ int)
+comment8.params=arr1\ arr2\ i
+comment8.target=boolean\ contentCheck(Fraction[],\ Fraction[],\ int)
+comment9.params=arr\ i
+comment9.target=boolean\ palindromCheck(Fraction[],\ int)
+numComments=11

@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=arr
+comment10.target=java.lang.String\ toString(int[])
+comment11.params=arr
+comment11.target=int[]\ copyStartingValues(int[])
+comment12.params=arr
+comment12.target=int[]\ selectNegatives(int[])
+comment13.params=arr
+comment13.target=int[]\ copyAndInvert(int[])
+comment14.params=arr1\ arr2
+comment14.target=int[]\ addArrays(int[],\ int[])
+comment15.params=arr
+comment15.target=boolean\ twoTimes(int[])
+comment15.text=\r\n\ \ \ \ public\ static\ int\ countSequences(int[]\ arr){\r\n\ \ \ \ \ \ \ \ int\ returnValue\ \=\ 0;\r\n\ \ \ \ \ \ \ \ for(int\ value)\r\n\ \ \ \ }\r\n
+comment2.params=arr
+comment2.target=int\ countNegatives(int[])
+comment3.params=arr
+comment3.target=int\ sumUpNegatives(int[])
+comment4.params=arr
+comment4.target=int\ maximum(int[])
+comment5.params=arr
+comment5.target=int\ countMaximum(int[])
+comment6.params=arr
+comment6.target=boolean\ isSorted(int[])
+comment7.params=arr
+comment7.target=boolean\ checkArray(int[])
+comment8.params=arr\ z
+comment8.target=int[]\ increaseArray(int[],\ int)
+comment9.params=arr
+comment9.target=int[]\ doubleIfContainsPositive(int[])
+numComments=16
