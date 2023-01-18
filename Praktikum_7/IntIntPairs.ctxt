@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=IntIntPairs
+comment1.params=c
+comment1.target=IntIntPairs(int)
+comment10.params=exFunc
+comment10.target=IntIntPairs\ extract(BoolFunction)
+comment2.params=
+comment2.target=boolean\ uncomplete()
+comment3.params=k\ v
+comment3.target=void\ put(int,\ int)
+comment4.params=other
+comment4.target=void\ combine(IntIntPairs)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=void\ show()
+comment7.params=func
+comment7.target=int\ accumulate(IntFunction)
+comment8.params=keyFunc\ valueFunc
+comment8.target=void\ manipulate(IntFunction,\ IntFunction)
+comment9.params=validFunc
+comment9.target=void\ remove(BoolFunction)
+numComments=11
