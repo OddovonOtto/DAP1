@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IntData
+comment1.params=p
+comment1.target=IntData(int[])
+comment2.params=f\ g\ x
+comment2.target=int\ compute(BoolBiFunction,\ IntFunction,\ int)
+numComments=3
