@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Storage
+comment1.params=v
+comment1.target=Storage(Ints[])
+comment2.params=p
+comment2.target=boolean\ contains(int)
+comment3.params=p
+comment3.target=boolean\ allAround(int)
+numComments=4
