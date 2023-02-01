@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Ints
+comment1.params=n
+comment1.target=Ints(int[])
+comment2.params=index\ val
+comment2.target=void\ set(int,\ int)
+comment3.params=val
+comment3.target=int\ count(int)
+comment4.params=oldVal\ newVal
+comment4.target=void\ substitute(int,\ int)
+comment5.params=
+comment5.target=void\ show()
+comment6.params=
+comment6.target=java.lang.String\ toSting()
+numComments=7

@@ -12,5 +12,8 @@ public class Test {
         y.m( special );
         z.m( all );
         z.m( most );
+        System.out.println(1/2);
+        
+        System.out.println(1>=2);
     } 
 }

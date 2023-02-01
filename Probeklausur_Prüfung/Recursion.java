@@ -1,7 +1,7 @@
 
 public class Recursion{
     
-    
+    /*
     public static void test(){
         //int[] testArray = {1,0,2,0,3,4,5,6};
         //System.out.println(contains(testArray,2,testArray.length-1));
@@ -25,7 +25,7 @@ public class Recursion{
             }
             return contains(arr, n, limit-1);
         }
-       */
+       
       
       if(arr[limit]==n){
           return true;
@@ -51,5 +51,35 @@ public class Recursion{
         
         System.out.println(dim[0].length);
     }
+
+    */
+   
+    public static void recursionTest(){
+        recursion(15.0,15.0,20);
+    }
+   
+   
+   
+    public static void recursion(double a, double b, int n){
+        double nmt = a;
+        double nmo = b;
+        double result = 0;
+        int i = 3;
+        
+        while(i<n){
+            
+            result = (1.0/3.0)*(2*nmo+nmt);
+            
+            nmt = nmo;
+            nmo = result;
+            
+            System.out.println(i + ": " + result);
+            
+            i++;
+        }
+        
+    }
     
+   
+   
 }

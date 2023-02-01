@@ -1,9 +1,8 @@
 #BlueJ class context
 comment0.target=Recursion
 comment1.params=
-comment1.target=void\ test()
-comment2.params=arr\ n\ limit
-comment2.target=boolean\ contains(int[],\ int,\ int)
-comment3.params=
-comment3.target=void\ dimensionTest()
-numComments=4
+comment1.target=void\ recursionTest()
+comment1.text=\r\n\ \ \ \ public\ static\ void\ test(){\r\n\ \ \ \ \ \ \ \ //int[]\ testArray\ \=\ {1,0,2,0,3,4,5,6};\r\n\ \ \ \ \ \ \ \ //System.out.println(contains(testArray,2,testArray.length-1));\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ dimensionTest();\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ static\ boolean\ contains(int[]\ arr,\ int\ n,\ int\ limit){\r\n\ \ \ \ \ \ \ \ if(limit\ <0\ ||\ limit\ >\=\ arr.length){\r\n\ \ \ \ \ \ \ \ throw\ new\ IllegalArgumentException();\r\n\ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ /*\r\n\ \ \ \ \ \ \ \ if(limit\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(arr[0]\=\=n){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(arr[limit]\ \=\=\ n){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ contains(arr,\ n,\ limit-1);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ if(arr[limit]\=\=n){\r\n\ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ }else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(limit\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ contains(arr,n,limit-1);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ \r\n\ \ \ \ }\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ static\ void\ dimensionTest(){\r\n\ \ \ \ \ \ \ \ int[]\ testArr1\ \=\ {1,2,3};\r\n\ \ \ \ \ \ \ \ int[]\ testArr2\ \=\ {1,2,3,1};\r\n\ \ \ \ \ \ \ \ int[]\ testArr3\ \=\ {1,2,3,1};\r\n\ \ \ \ \ \ \ \ int[]\ testArr4\ \=\ {1,2,3,1};\r\n\ \ \ \ \ \ \ \ int[]\ testArr5\ \=\ {1,2,3,1};\r\n\ \ \ \ \ \ \ \ int[][]\ dim\ \=\ {testArr1,testArr2,testArr3,testArr4,testArr5};\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ System.out.println(dim[0].length);\r\n\ \ \ \ }\r\n\r\n
+comment2.params=a\ b\ n
+comment2.target=void\ recursion(double,\ double,\ int)
+numComments=3

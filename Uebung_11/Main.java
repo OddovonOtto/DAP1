@@ -16,12 +16,14 @@ public class Main{
         int result = iv.compute(p->p,p->{if(p==0){return false;}return true;});
         int gzz = iv.compute(p->1,p->{if(p%10==0){return false;}return true;});
         int nn = iv.compute(p->1,p->{if(p<0){return false;}return true;});
-        int interval = iv.compute(p->1,p->{if(p>=3&&p<=17){return false;}return true;});
+        //int interval = iv.compute(p->1,p->{if(p>=3&&p<=17){return false;}return true;});
+        int interval = iv.compute(x->(x%2==0)?1:0, x-> x<3||x>17);
+        
         
         //System.out.println("Result: " + result);
         //System.out.println("Zahl%10 == 0: " + gzz);
         //System.out.println("Negative Zahle: " + nn);
-        System.out.println("Intervall" + interval);
+        System.out.println("Intervall: " + interval);
         
     }
 }
