@@ -1,4 +1,4 @@
-public class TreeTestComplete
+public class EasyPoly
 {
     public static void main( String[] args )
     {

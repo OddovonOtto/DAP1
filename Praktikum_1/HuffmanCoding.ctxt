@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=HuffmanCoding
+comment1.params=start
+comment1.target=void\ insertionSort(int)
+comment2.params=start
+comment2.target=void\ shiftTrees(int)
+comment3.params=
+comment3.target=void\ buildTree()
+comment4.params=
+comment4.target=void\ showCodeTable()
+numComments=5

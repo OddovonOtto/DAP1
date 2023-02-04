@@ -4,7 +4,7 @@ public class Quicksort {
 	
 	public static void main(String[] args) {
 		
-		int[] s = {4,17,9,38,25,20,8,12,15};
+		int[] s = {13,26,8,28,34,20,10,12,6};
 		groupByNumber(s, 0, s.length-1);
 		
 		for(int val: s) {
